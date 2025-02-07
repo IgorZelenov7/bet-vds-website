@@ -1,0 +1,19 @@
+:root {
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "Roboto", sans-serif;
+    --accent-color: #fe9e45;
+    --grey-color: #535353;
+    --brown-color: #481c03;
+    --ligth-brown-color: #4d4d4d;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1430px;
+    width: 100%;
+}
+
+a {
+    color: #fff;
+}
