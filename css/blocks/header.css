@@ -6,6 +6,7 @@
     background-position: center;
 }
 
+
 .header__row {
     display: flex;
     justify-content: space-between;
@@ -30,6 +31,11 @@
     color: var(--accent-color);
     transition: color 0.3s ease;
 }
+
+.header__nav-menu-item:active {
+    transform: scale(0.98);
+}
+
 
 .header__logo-link .logo-1 {
     border-radius: 5px;
@@ -130,7 +136,7 @@
     border: 1px solid #434343;
     width: 920px;
     height: 0px;
-    margin: 70px auto;
+    margin: 70px auto 10px;
 }
 
 .header__descr {
@@ -183,3 +189,4 @@
     text-align: center;
     color: #fff;
 }
+
