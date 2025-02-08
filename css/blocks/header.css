@@ -190,3 +190,43 @@
     color: #fff;
 }
 
+
+@media (hover: none) and (pointer: coarse) and (max-width: 815px) {
+    .header__nav-menu-item a:hover {
+        color: inherit;
+    }
+}
+
+@media (max-width: 1025px) {
+	.header__logo-link img{
+		display: none;
+	}
+}
+
+@media (max-width: 815px) {
+	.header__nav-menu-item {
+	margin: 0px;
+	}
+	.header__list-img {
+		display: none;
+	}
+	.header__h4 {
+		display: none;
+	}
+	.header__nav-menu-item-btn {
+		margin-right: 5px;
+		transform: translateX(-70px);
+	}
+}
+
+@media (max-width: 580px) {
+	.header__row {
+		flex-direction: column;
+		row-gap: 40px;
+	}
+
+	.header__nav-menu {
+		flex-direction: column;
+		row-gap: 30px;
+	}
+}
